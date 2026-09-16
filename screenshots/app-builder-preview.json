@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "황금시대",
+      "hasCanvas": false,
+      "bodyTextLen": 1442,
+      "bodyTextHash": "30e855f8cefa259e94101670436fa67fd75880b3881b8bded79ff1134bf97d79",
+      "bodyTextPrefix": "황금시대 HWANGGEUM SIDAE 홈 금값 계산 금 매입 구매 방문 0507-1345-3180 SONGPA · ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "황금시대",
+      "hasCanvas": false,
+      "bodyTextLen": 1418,
+      "bodyTextHash": "4bc1aaa664e2ac9377cbc0687e1659f8c34b0c9593e59ba8594ea444b15f7481",
+      "bodyTextPrefix": "황금시대 HWANGGEUM SIDAE SONGPA · CHEONHO · FACTORY 오늘 금값으로 투명하게. 공장",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

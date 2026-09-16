@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-Cltr0gcK.js";import{_ as t}from"./index-BoLGnoXC.js";var n=e(),r=()=>(0,n.jsxs)(`main`,{className:`px-6 py-20 text-center`,children:[(0,n.jsx)(`h1`,{className:`font-display text-3xl`,children:`상품을 찾을 수 없습니다`}),(0,n.jsx)(t,{to:`/shop`,className:`mt-4 inline-block text-sm text-gold-deep`,children:`목록으로`})]});export{r as notFoundComponent};
