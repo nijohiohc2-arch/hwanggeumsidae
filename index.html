@@ -176,26 +176,30 @@ a { color: inherit; text-decoration: none; }
 .hero h1 {
   font-family: "Noto Serif KR", "Cormorant Garamond", serif;
   font-weight: 500;
-  font-size: clamp(2.55rem, 8.2vw, 4.6rem);
+  font-size: clamp(2.4rem, 7.6vw, 4.4rem);
   line-height: 1.12;
   letter-spacing: -.01em;
   margin: 0 0 22px;
   color: var(--ink);
-  max-width: 6.5ch;
+  max-width: none;
   font-feature-settings: "kern";
 }
-.hero h1 br { display: block; content: ""; }
+.hero h1 .h1-top,
+.hero h1 .h1-bottom {
+  display: block;
+  white-space: nowrap;
+}
 .hero-lead {
   font-size: .92rem;
-  color: #3d3832;
+  color: var(--gold-deep);
   line-height: 1.75;
   margin: 0 0 32px;
   max-width: 26ch;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: -.01em;
   text-shadow:
-    0 1px 0 rgba(250, 246, 241, .55),
-    0 0 18px rgba(250, 246, 241, .75);
+    0 1px 0 rgba(250, 246, 241, .7),
+    0 0 16px rgba(250, 246, 241, .85);
 }
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 10px;
@@ -908,7 +912,7 @@ body.modal-open { overflow: hidden; }
     </div>
     <div class="hero-inner">
       <p class="eyebrow">Boutique Jewelry · Cheonho</p>
-      <h1>천호<br>황금시대</h1>
+      <h1><span class="h1-top">천호</span><span class="h1-bottom">황금시대</span></h1>
       <p class="hero-lead">예물·커플링·골드바까지,<br>매입과 판매를 한곳에서.<br>종로3가 직영 공장의<br>합리적인 가격으로 만납니다.</p>
       <button type="button" class="btn btn-primary" data-scroll="shop">컬렉션 보러가기 →</button>
     </div>
